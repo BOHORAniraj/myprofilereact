@@ -2,6 +2,7 @@ import React from 'react'
 import "./project.css";
 import task from '../../img/task.png';
 import cal from '../../img/cal.png';
+import profile from '../../img/profile.PNG';
 
 
 
@@ -43,7 +44,7 @@ export const TopProject= () => {
                         </p>
                     </div>
                     <div className="pro-img">
-                        <img src="profile.jpg" alt="protfolio" />
+                        <img src={profile} alt="protfolio" />
                     </div>
                 </div>
                 <div className="pro-task-list">

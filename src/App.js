@@ -5,6 +5,8 @@ import { TopNavBar } from './component/navbar/Navbar';
 import {TopHero} from './component/hero/Hero';
 import {TopSkill} from './component/skill/Skill';
 import {TopProject} from './component/project/Project';
+import {TopAbout} from './component/about/About'
+import {TopFooter} from './component/footer/Footer'
 function App() {
   return (
    <div>
@@ -12,6 +14,8 @@ function App() {
  <TopHero />
  <TopSkill />
 <TopProject />
+<TopAbout />
+<TopFooter />
    </div>
   
   );
